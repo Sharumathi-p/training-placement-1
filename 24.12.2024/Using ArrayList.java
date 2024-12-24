@@ -1,0 +1,17 @@
+public class ArrayListExample {
+    public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        System.out.println("ArrayList elements:");
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+        numbers.remove(1);
+        System.out.println("After removal:");
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+}
